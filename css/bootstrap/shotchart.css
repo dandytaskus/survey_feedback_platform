@@ -1,0 +1,40 @@
+/* ShotChart */
+@font-face{	font-family: 'digital';	src: url('../font/digital-7.ttf');}
+.test { border:1px solid red; }
+body {
+	background:#232323;
+	padding:0;
+	margin:0;
+}
+.header {
+	height:100px;
+	padding:10px;
+}
+.boxScore {
+	padding:10px;
+	font-size:40px;
+	font-family:'digital';
+	font-weight:bold;
+	text-align:center;
+	color:red;
+  	border:1px solid #555;
+	width:121px;
+	background:#333;
+}
+
+
+.gameClock {
+	width:200px;
+	margin:auto;
+	text-align:center;
+	overflow:auto;
+	padding:10px;
+}
+
+.statBoard {
+    background-color: #FFF;
+    color: #000;
+}
+.gameClock span {font-family: 'digital';font-weight: bold;margin:5px;font-size:52px;color:red;}
+.container { min-width:1170px}
+

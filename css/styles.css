@@ -1,0 +1,108 @@
+/** UAAP-STAT CSS **/
+* {
+  font-family:Arial;
+  padding:0;
+  margin:0;
+}
+.container {
+  padding:3px;
+}
+.center {
+  text-align:center;
+}
+
+table {
+  margin:auto;
+  border-collapse:collapse;
+}
+
+.border-table {
+  border:1px solid #000;
+}
+.border-table th, .border-table td, .border-table td table td, .border-table td table th {
+  border:1px solid #000;
+  padding:3px 10px;
+}
+.border-alter tbody tr:nth-child(even){
+  background:#EEE;
+}
+/** scoring sequence **/
+.scs-header {
+  background:#000;
+  color:#FFF;
+}
+.uaap-logo {
+  margin: 10px;
+}
+
+table.center-table td table td, table.center-table td table th{
+  text-align:center;
+}
+
+table.center-table td{
+  padding:0;
+}
+
+
+/** NAVIGATION **/
+.navi {
+  padding:10px;
+  margin:0;
+  list-style:none;
+  background:#3ca;
+}
+.navi li {
+  display:inline;
+}
+.navi li a {
+  color:#222;
+  text-decoration:none;
+  padding:10px;
+}
+
+
+
+/** FOOTER **/
+.footer {
+  padding:15px;
+  margin:0;
+  list-style:none;
+  color:#FFF;
+  background:#33ADFF;
+  
+}
+
+
+/** Content **/
+.content{
+  background:#D4F1FF;
+}
+
+.statMenu{
+ background:#FFF;
+}
+
+.statMenu th{
+color:#FFF;
+  background:#33ADFF
+}
+
+
+.statMenu td:hover
+{
+color:#FFF;
+background-color:#00FFFF;
+}
+
+a{
+color:#19497A;
+text-decoration:none;
+}
+
+@media print {
+  @page {
+    size:auto;
+    margin:0mm;
+  }
+
+}
